@@ -9,7 +9,7 @@ void selectionSort(int arr[], int n)
         minLocation= i;
         for (j = i+1; j < n; j++)
           if (arr[j] < arr[minLocation])
-            min_idx = j;
+            minLocation = j;
  
         // Swap the found smallest value with the first item
         
